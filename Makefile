@@ -1,7 +1,7 @@
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
 
-PREFIX ?= /usr/local
+PREFIX ?= /usr
 BIN_DIR=$(DESTDIR)$(PREFIX)/bin
 DOC_DIR=$(DESTDIR)$(PREFIX)/share/doc/archuseriso
 PROFILE_DIR=$(DESTDIR)$(PREFIX)/share/archuseriso

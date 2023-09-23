@@ -133,7 +133,7 @@ usage: ${app_name} [options] <profile_dir>
      -L <label>                         Set the ISO volume label
                                         Default: '${iso_label}'
      -l, --language <lang>              Set default language, select one from:
-                                        cz, de, es, fr, gr, hu, it, nl, pl, pt, ro, rs, ru, tr, ua
+                                        cz, de, es, fr, gb, gr, hu, it, nl, pl, pt, ro, rs, ru, tr, ua
      -m, --build-modes [build modes]    Build modes to use (valid modes are: 'bootstrap', 'img' and 'iso').
                                         Multiple build modes are provided as quoted, comma delimited list.
      -o <out_dir>                       Set the output directory
@@ -2741,6 +2741,7 @@ while true; do
                 'es'|'es_ES') lang="es_ES";;
                 'fr'|'fr_FR') lang="fr_FR";;
                 'gr'|'el_GR') lang="el_GR";;
+                'gb'|'en_GB') lang="en_GB";;
                 'hu'|'hu_HU') lang="hu_HU";;
                 'it'|'it_IT') lang="it_IT";;
                 'nl'|'nl_NL') lang="nl_NL";;
